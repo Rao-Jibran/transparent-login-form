@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+body{
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
+}
+.form{
+    width: 50%;
+    position: absolute;
+    top: 23%;
+    left: 48%;
+    
+}
+
+.form h1{
+    font-family: 'Courgette', cursive;
+    color: white;
+    font-size: 55px;
+    padding: 0px 7px;
+    border-bottom: 5px solid purple;
+    width: 154px;
+    margin: 15px 23px;
+}
+.form input{
+    background: none;
+  color: white;
+    font-size: 19px;
+    height: 28px;
+    padding: 4px 22px;
+    margin: 15px 2px;
+    border-bottom: 3px solid purple;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+}
+.form button{
+    background-color: #4603464d;
+    height: 28px;
+    width: 85px;
+    margin: 10px 25px;
+    color: white;
+}
+.form button:hover{
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}
